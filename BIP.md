@@ -25,7 +25,7 @@ until the signature is its minimum size ("low-R grinding"). This is what softwar
 such as Bitcoin Core already do; writing it down bit-for-bit makes every signature
 reproducible, and therefore auditable.
 
-The second part is an optional nonce tweak ("anti-exfil") for the two-device setup — a
+The second part is an optional nonce tweak ("anti-exfil") for a two-device setup — a
 software wallet driving a hardware signer. The wallet supplies randomness that is tweaked
 into the signer's nonce point, and it can verify afterwards that the tweak was really
 applied, so even a malicious signer cannot smuggle data out through its signatures. The
